@@ -1,0 +1,8 @@
+stages:
+  - build
+
+run-my-script:
+  stage: build
+  script:
+    - echo "Đã push repo lên GitLab thành công!"
+    - ls -la
